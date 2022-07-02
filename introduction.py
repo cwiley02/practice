@@ -1,4 +1,5 @@
-name = "Hundi"
-height = "five foot four inches"
-occupation = "suck dick and get knotted"
-print("Hi! My name is"+ " "+name+" "+ "I am"+" "+height+" "+"and I really like to"+" "+ occupation)
+name = input("Enter your name: ")
+age = input("Enter your age: ")
+occup = input("Enter your occupation: ")
+int = input("Enter your other interests: ")
+print("My name is " + name + "." + " " + "I am currently " + age + "." + " " + "I am currently a " + occup + "." + " " + "My interests are " + int + ".")
