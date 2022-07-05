@@ -1,5 +1,11 @@
+# Code to test gold purity of 22K (> 91.7%) and 24K (>= 99.9%)
+
 purity = float(input())
 if purity > 91.7:
-    print("accepted")
-    if purity >= 99.9:
-        print("accepted")
+    print("Accepted")
+else:
+    if purity < 91.7:
+        print("Not accepted")
+    else:
+        if purity >= 99.9:
+            print("Accepted")
